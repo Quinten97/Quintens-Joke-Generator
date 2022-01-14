@@ -25,7 +25,7 @@ export default function GetJoke() {
 
   return (
     <div className="master-container">
-      <div className="text-container">{data ? sortData() : ""}</div>
+      <div className="text-container">{data ? sortData() : "...Loading"}</div>
       <button
         className="btn"
         onClick={() => {
